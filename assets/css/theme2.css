@@ -1,0 +1,169 @@
+/* projet.css */
+/*barre des tache en haut*/
+.barre {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+      
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+      
+  li:last-child {
+    border-right: none;
+  }
+      
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+      
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  /*fin barre */
+  body {
+    background:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    margin: 0 !important;
+  }
+  .bandeau {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logoaca{
+    width: 200px;
+    height: auto;
+  }
+  .logoiut
+  {
+    width: 200px;
+    height: auto;
+  }
+  .cssv{
+    margin-top: 1.4%;
+  }
+  /*page home*/
+  .textehome1 {
+    font-size: 150%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    padding: 2%;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-content: space-around;
+  }
+  .mail{
+    color: rgb(0, 0, 0);
+  }
+  .presentation {
+    margin-left: 2%;
+  }
+  .adresse {
+    margin-left: 2%;
+  } 
+  /*page traveaux*/   
+  .diapoBB8{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+  .telediapoBB8{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  }
+  .codeBB8{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .diapocomm{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .telediapocomm{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .telechargement{
+    font-size: 150%;
+    color: rgb(0, 0, 0)
+  }
+  /* formulaire*/
+  form {
+    margin: 2% auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1em;
+  }
+        
+  form div + div {
+    margin-top: 1em;
+  }
+        
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+        
+  input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+  }
+        
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+        
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+        
+  .button {
+    padding-left: 90px; 
+  }
+        
+  button {
+    margin-left: .5em;
+  }
+  /*tous*/
+  .remonte{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    opacity: 0.3;
+  }
+  .remonte:hover{
+    opacity: 1;
+  }
+  * {
+    scroll-behavior: smooth;
+  }
+  #changeThemeBtn{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
